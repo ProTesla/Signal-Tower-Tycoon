@@ -1,0 +1,20 @@
+# Ignore everything by default
+/*
+
+# Allow only what the project needs
+!/.gitignore
+!/project.godot
+!/icon.svg
+!/icon.svg.import
+!/smoke_test.gd
+!/smoke_test.gd.uid
+!/README.md
+!/LICENSE
+!/scenes/
+!/scripts/
+!/shaders/
+
+# Junk that can sneak into the allowed folders
+.DS_Store
+Thumbs.db
+*.tmp
